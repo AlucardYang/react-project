@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './home.css';
+import './detail.css';
 
 import { Link } from 'react-router-dom';
 
-class Home extends Component {
+class Detail extends Component {
   render() {
     return (
       <div>
-        Home
-        <Link to="/detail">Detail</Link>
+        Detail
+        <Link to="/home">Home</Link>
       </div>
     );
   }
 }
 
-export default Home;
+export default Detail;
