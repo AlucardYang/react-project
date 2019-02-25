@@ -11,15 +11,6 @@ class Home extends Component {
     }
   }
 
-  componentDidMount() {
-    window.$http.get('/exchange-rate/list', {}, {
-
-    }).then(res => {
-    }, err => {
-
-    })
-  }
-
   showOrHide() {
     this.setState({ show: !this.state.show });
   }

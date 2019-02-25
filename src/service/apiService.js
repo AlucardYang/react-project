@@ -50,7 +50,7 @@ const environments = {
 
 // 各环境业务配置是否开启
 window.businessConfig = (businessConfig[environments[window.location.hostname]] ? businessConfig[environments[window.location.hostname]] : businessConfig['test']);
-console.log(window.businessConfig);
+// console.log(window.businessConfig);
 
 // 兼容v2/page开头
 if (window.baseHost === 'v2/page') {

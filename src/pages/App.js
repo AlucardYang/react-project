@@ -25,7 +25,9 @@ class App extends Component {
     };
 
     return (
-      <AppRouter></AppRouter>
+      <div id="frameworkView" className="framework-view">
+        <AppRouter></AppRouter>
+      </div>
     );
   }
 }
