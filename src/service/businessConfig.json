@@ -1,0 +1,23 @@
+{
+  "test": {
+    "rich_agent_card": true,
+    "iBer_care_card": true,
+    "open_recommend_article": true,
+    "rich_article_comment": true,
+    "worth_friend_link": true
+  },
+  "exp": {
+    "rich_agent_card": true,
+    "iBer_care_card": false,
+    "open_recommend_article": true,
+    "rich_article_comment": true,
+    "worth_friend_link": true
+  },
+  "prod": {
+    "rich_agent_card": true,
+    "iBer_care_card": false,
+    "open_recommend_article": true,
+    "rich_article_comment": true,
+    "worth_friend_link": true
+  }
+}
