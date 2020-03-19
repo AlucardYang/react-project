@@ -87,18 +87,21 @@ class ExchangeRate extends Component {
     let currencys = <li></li>;
     if (this.state.currencys.length > 0) {
       currencys = this.state.currencys.map((item, index) =>
-        <li key={index} className="row">
-          <div className="currency">
-            <div className="img-box">
-              <img src={require('@/assets/images/national-flag.png')} className="img" style={{ 'top': this.state.nationalFlagPostion[item.key] }} />
+        // index > 2 ?
+          <li key={index} className="row">
+            <div className="currency">
+              <div className="img-box">
+                <img src={require('@/assets/images/national-flag.png')} className="img" style={{ 'top': this.state.nationalFlagPostion[item.key] }} />
+              </div>
+              <span className="en">{item.key}</span>
+              <span className="cn">{item.name_cn}</span>
             </div>
-            <span className="en">{item.key}</span>
-            <span className="cn">{item.name_cn}</span>
-          </div>
-          <div className="rmb">{item.cny_money}</div>
-          <div className="hk">{item.hkd_money}</div>
-          <i className="iconfont go-detail">&#xe6bb;</i>
-        </li>
+            <div className="rmb">{item.cny_money}</div>
+            <div className="hk">{item.hkd_money}</div>
+            <i className="iconfont go-detail">&#xe6bb;</i>
+          </li>
+        // :
+        //   null
       );
     }
 
