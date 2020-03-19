@@ -100,13 +100,14 @@ select {
 }
 
 @font-face {
-  font-family: 'iconfont';  /* project id 751334 */
+  font-family: 'iconfont';
+  /* project id 751334 */
   src: url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.eot');
   src: url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.eot?#iefix') format('embedded-opentype'),
-  url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.woff2') format('woff2'),
-  url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.woff') format('woff'),
-  url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.ttf') format('truetype'),
-  url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.svg#iconfont') format('svg');
+    url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.woff2') format('woff2'),
+    url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.woff') format('woff'),
+    url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.ttf') format('truetype'),
+    url('//static.iberhk.com/res/v2/font/font_751334_b1f7pza9lab.svg#iconfont') format('svg');
 }
 
 .iconfont {

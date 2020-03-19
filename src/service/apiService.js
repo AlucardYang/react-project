@@ -23,9 +23,8 @@ headers['X-Requested-With'] = 'XMLHttpRequest';
 
 // 各环境域名
 const locationHosts = {
-    'h5.goodiber.com': 'https://h5.goodiber.com',
-    'mp.goodiber.com': 'https://mp.goodiber.com/v2/api',
-    'page.goodiber.com': 'https://page.goodiber.com/v2/api',
+    'dev1mp.goodiber.com': 'https://dev1mp.goodiber.com/v2/api',
+    'dev1page.goodiber.com': 'https://dev1page.goodiber.com/v2/api',
     'expmp.goodiber.com': 'https://expmp.goodiber.com/v2/api',
     'exppage.goodiber.com': 'https://exppage.goodiber.com/v2/api',
     'mp.iberhk.com': 'https://mp.iberhk.com/v2/api',
@@ -34,11 +33,10 @@ const locationHosts = {
 }
 
 // 请求配置
-let baseURL = (locationHosts[window.location.hostname] ? locationHosts[window.location.hostname] : 'https://h5.goodiber.com');
+let baseURL = (locationHosts[window.location.hostname] ? locationHosts[window.location.hostname] : 'https://dev1mp.goodiber.com');
 
 // 各环境简写
 const environments = {
-    'h5.goodiber.com': 'test',
     'mp.goodiber.com': 'test',
     'page.goodiber.com': 'test',
     'expmp.goodiber.com': 'exp',
